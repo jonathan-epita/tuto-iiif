@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 188,
+    "height" : 125
+  }, {
+    "width" : 376,
+    "height" : 250
+  }, {
+    "width" : 752,
+    "height" : 500
+  }, {
+    "width" : 1504,
+    "height" : 1000
+  }, {
+    "width" : 3008,
+    "height" : 2000
+  }, {
+    "width" : 6016,
+    "height" : 4000
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 6016,
+  "@id" : "https://jonathan-epita.github.io/tuto-iiif/images/pexels-adnana-kelic-276310003-15698213",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4000
+}
