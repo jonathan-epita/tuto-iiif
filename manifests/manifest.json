@@ -1,0 +1,79 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://jonathan-epita.github.io/tuto-iiif/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Mon premier Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://b52dffe8-7cce-4b94-8dea-e41aa2ce6839",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://d6c368f3-3cc8-4eca-aba1-a4fe3a064849",
+      "@type" : "sc:Canvas",
+      "label" : "Page 1",
+      "height" : 4752,
+      "width" : 3352,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9cd7ae01-beaf-4e5b-8bca-9e1a727b9702",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449043q/f7/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449043q/f7",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 4752,
+          "width" : 3352
+        },
+        "on" : "http://d6c368f3-3cc8-4eca-aba1-a4fe3a064849"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://db80ea21-e6f1-40c5-afe4-334ae754e241",
+      "@type" : "sc:Canvas",
+      "label" : "Page 2",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2fab332f-3eb5-4f82-a73b-37b4ea8855bd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://db80ea21-e6f1-40c5-afe4-334ae754e241"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
